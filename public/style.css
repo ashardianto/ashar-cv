@@ -1,0 +1,101 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+.hero--container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 auto;
+  width: 800px;
+}
+
+.hero--portrait {
+  border-radius: 50%;
+  width: 200px;
+  padding-bottom: 20px;
+}
+
+.hero--about {
+  width: 400px;
+}
+
+.hero--typo {
+  text-align: center;
+}
+
+.h4--hero {
+  padding-bottom: 15px;
+}
+
+.p--hero {
+  font-size: 12px;
+  color: #918e9b;
+}
+
+.edu--title {
+  margin-top: 40px;
+}
+
+.edu--list {
+  margin-top: 20px;
+}
+
+.education {
+  display: flex;
+  padding-top: 27px;
+  margin: 0 auto;
+  width: 600px;
+}
+
+.edu--img {
+  max-width: 200px;
+  border-radius: 10px;
+}
+
+.edu--description {
+  display: flex;
+  flex-direction: column;
+  padding-left: 40px;
+  width: 400px;
+  justify-content: center;
+}
+
+.gray {
+  color: #918e9b;
+}
+
+.edu--p {
+  padding-top: 40px;
+  font-size: 14px;
+}
+
+.skill--title {
+  margin-top: 40px;
+}
+
+.skill--list {
+  display: flex;
+  flex-wrap: nowrap;
+  gap: 20px;
+  overflow-x: auto;
+  margin-top: 40px;
+}
+
+.skill--img {
+  width: 86px;
+  border: 2px solid;
+  border-radius: 50%;
+  padding: 10px;
+  margin: 0 10px;
+}
+
+.skill--typo {
+  font-size: 16px;
+}
