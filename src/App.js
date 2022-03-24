@@ -1,5 +1,4 @@
 import React from "react";
-
 import Navbar from "./components/Navbar";
 import { Routes, Route, Link } from "react-router-dom";
 import About from "./About";
