@@ -1,0 +1,156 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+/* NAV */
+
+/* .navbar {
+  display: flex;
+} */
+
+.nav--ul {
+  width: 100%;
+  display: flex;
+  list-style-type: none;
+  padding: 0px 40px 0 40px;
+}
+
+.nav-li {
+  padding: 5px 20px;
+}
+
+.nav--contact {
+  margin-left: auto;
+}
+
+.nav-li > a {
+  text-decoration: none;
+  color: black;
+}
+
+/* .nav--contact {
+  margin-right: auto;
+} */
+
+/* NAV END */
+
+.hero--container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 20px auto;
+  width: 800px;
+}
+
+.hero--portrait {
+  border-radius: 50%;
+  width: 200px;
+  padding-bottom: 20px;
+}
+
+.hero--about {
+  width: 400px;
+}
+
+.hero--typo {
+  text-align: center;
+}
+
+.h4--hero {
+  padding-bottom: 15px;
+}
+
+.h1--hero {
+  font-family: "Rubik";
+  font-weight: 700;
+}
+
+.p--hero {
+  font-size: 15px;
+  color: #918e9b;
+}
+
+.edu--title,
+.experience--title {
+  margin-top: 40px;
+  font-family: "Rubik";
+}
+
+.edu--list,
+.experience--list {
+  margin-top: 80px;
+}
+
+.edu--name,
+.exp--name {
+  font-family: "Rubik";
+}
+
+.education,
+.experience {
+  display: flex;
+  padding-top: 27px;
+  margin: 0 auto;
+  width: 600px;
+}
+
+.edu--img,
+.exp--img {
+  max-width: 200px;
+  border-radius: 10px;
+}
+
+.edu--description,
+.exp--description {
+  display: flex;
+  flex-direction: column;
+  padding-left: 40px;
+  width: 400px;
+  justify-content: center;
+}
+
+.gray {
+  color: #918e9b;
+}
+
+.edu--p,
+.exp--p {
+  padding-top: 40px;
+  font-size: 14px;
+}
+
+.skill--title {
+  margin-top: 80px;
+  font-family: "Rubik";
+}
+
+.skill--list {
+  display: flex;
+  flex-wrap: nowrap;
+  width: 650px;
+  /* gap: 20px; */
+  overflow-x: auto;
+  margin: 40px auto 0;
+}
+
+.skill--img {
+  width: 86px;
+  border: 2px solid;
+  border-radius: 50%;
+  padding: 10px;
+  margin: 0 18px;
+}
+
+.skill--typo {
+  font-size: 16px;
+}
+
+.experience--title {
+  margin-top: 40px;
+}
