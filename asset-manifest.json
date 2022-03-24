@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.js": "/static/js/main.1b7c1c1f.js",
-    "index.html": "/index.html",
-    "main.1b7c1c1f.js.map": "/static/js/main.1b7c1c1f.js.map"
+    "main.js": "/ashar-cv/static/js/main.1b7c1c1f.js",
+    "index.html": "/ashar-cv/index.html",
+    "main.1b7c1c1f.js.map": "/ashar-cv/static/js/main.1b7c1c1f.js.map"
   },
   "entrypoints": [
     "static/js/main.1b7c1c1f.js"
