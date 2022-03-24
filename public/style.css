@@ -72,36 +72,42 @@ body {
 }
 
 .p--hero {
-  font-size: 12px;
+  font-size: 15px;
   color: #918e9b;
 }
 
-.edu--title {
+.edu--title,
+.experience--title {
   margin-top: 40px;
   font-family: "Rubik";
 }
 
-.edu--list {
-  margin-top: 20px;
+.edu--list,
+.experience--list {
+  margin-top: 80px;
 }
 
-.edu--name {
+.edu--name,
+.exp--name {
   font-family: "Rubik";
 }
 
-.education {
+.education,
+.experience {
   display: flex;
   padding-top: 27px;
   margin: 0 auto;
   width: 600px;
 }
 
-.edu--img {
+.edu--img,
+.exp--img {
   max-width: 200px;
   border-radius: 10px;
 }
 
-.edu--description {
+.edu--description,
+.exp--description {
   display: flex;
   flex-direction: column;
   padding-left: 40px;
@@ -113,13 +119,14 @@ body {
   color: #918e9b;
 }
 
-.edu--p {
+.edu--p,
+.exp--p {
   padding-top: 40px;
   font-size: 14px;
 }
 
 .skill--title {
-  margin-top: 40px;
+  margin-top: 80px;
   font-family: "Rubik";
 }
 

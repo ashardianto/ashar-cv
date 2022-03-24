@@ -4,7 +4,7 @@ export default function Contact(props) {
   return (
     <div className="contact">
       <h2>
-        <center>Contact</center>
+        <center>CONTACT</center>
       </h2>
       <p>
         <center>Under Construction</center>
